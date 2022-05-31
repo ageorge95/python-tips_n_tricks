@@ -6,8 +6,8 @@ class First():
     final_arg: int
 
     def __init__(self):
-        super(First, self).__init__()
         print("first", self.final_arg)
+        super(First, self).__init__()
 
 class Second():
     # it is a good practice to let people know
@@ -17,7 +17,6 @@ class Second():
     def __init__(self):
         print("second", self.final_arg)
         super(Second, self).__init__()
-
 
 class Third(First,
             Second):
