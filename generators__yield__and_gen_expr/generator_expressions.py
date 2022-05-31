@@ -1,3 +1,6 @@
+# You can use () to create a generator with NO memory penalty; Much better than a list comprehension [].
+# BUT list comprehensions are faster than generators; So if memory is not an issue list comprehension is better.
+
 # will create a usual list comprehension
 nums_squared_lc = [num ** 2 for num in range(5)]
 
