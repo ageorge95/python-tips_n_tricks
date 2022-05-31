@@ -23,14 +23,14 @@ class Execute_and_capture():
 
     def slave_x(self,
                 x: AnyStr):
-        for out in zip(iter(getattr(self.popen, x).readline, "")):
+        for out in iter(getattr(self.popen, x).readline, ""):
             yield out
         getattr(self.popen, x).close()
 
     def delegate_x(self,
                    x: AnyStr):
         for output in self.slave_x(x):
-            getattr(self._log, level_descriptor[x])(output)
+            getattr(self._log, level_descriptor[x])(output.strip())
 
     def execute(self):
         args = {'args': self.cmd,
