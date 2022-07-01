@@ -1,0 +1,9 @@
+-> threads vs processes memory space
+
+-> threads vs processes parallelism
+
+-> python's GIL (global interpreter lock)
+
+-> threads vs processes performance
+
+-> threads vs processes use cases
