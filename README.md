@@ -1,5 +1,5 @@
 # python-tips_n_tricks
-Collection of various tips&amp; tricks for the python programming language
+Collection of various tips &amp; tricks for the python programming language.
 
 Found this repository useful? Send your ❤ in any form you can 🙂.
 
