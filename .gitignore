@@ -1,3 +1,5 @@
 /.idea
 /custom_logger/__pycache__/*.pyc
 *.pyc
+/venv
+activate.bat
