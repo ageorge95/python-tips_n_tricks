@@ -1,1 +1,4 @@
 concurrent_log_handler
+cryptography
+psutil
+websocket-client
